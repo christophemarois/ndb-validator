@@ -26,10 +26,10 @@ Add `ndb-validator.js` to your project. Requires jQuery >= 1.9
 
 ```javascript
 
-	$("#register").ndbValidator({
-	  showErrors: function (input, errors) {},
-	  hideErrors: function (input) {}
-	});
+$("#register").ndbValidator({
+	showErrors: function (input, errors) {},
+	hideErrors: function (input) {}
+});
 
 ```
 
