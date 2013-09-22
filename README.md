@@ -15,7 +15,7 @@ Add `ndb-validator.js` to your project.
 
 <form id="register">
 
-	<input type="text" name="name" data-v-required="true" data-v-minlength="4" data-v-regexp="/^[\p{L}\s'.-]+$/">
+	<input type="text" name="name" data-v-required="true" data-v-minlength="4" data-v-pattern="name">
 	<input type="text" name="email" data-v-required="true" data-v-pattern="email">
 	<input type="text" name="password" data-v-required="true" data-v-min-strength="4" data-v-differs-from="name, email">
 	<input type="text" name="password-confirm" data-v-required="true" data-v-equal-to="password">
