@@ -12,7 +12,6 @@ Add `ndb-validator.js` to your project.
 **HTML**
 
 ```html
-
 <form id="register">
 
 	<input type="text" name="name" data-v-required="true" data-v-minlength="4" data-v-pattern="name">
@@ -27,12 +26,10 @@ Add `ndb-validator.js` to your project.
 **Javascript**
 
 ```javascript
-
 $("#register").ndbValidator({
 	showErrors: function (input, errors) {},
 	hideErrors: function (input) {}
 });
-
 ```
 
 ###License
